@@ -20,4 +20,12 @@ func main() {
 	for i := 1; i <= 10; i++ {
 		fmt.Println(i)
 	}
+	//编写程序，输出五角星
+	for i := 1; i <= 5; i++ {
+		fmt.Print("*")
+	}
+
+
+
+
 }
