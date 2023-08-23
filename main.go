@@ -4,7 +4,7 @@ import "fmt"
 
 
 type DocContentResponse struct {
-	Content   string `json:"content"`
+	content   string `json:"content"`
 	IsSee     bool   `json:"isSee"`     // 是否试看
 	IsPwd     bool   `json:"isPwd"`     // 是否需要密码
 	IsColl    bool   `json:"isColl"`    // 用户是否收藏
